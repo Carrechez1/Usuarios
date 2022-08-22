@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(34, 241, 241, 0.298);
+  background-image: url("https://mobimg.b-cdn.net/v3/fetch/fc/fc813e57424d1ad9576f9066812f670f.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.user__title {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 15px;
+  color: aqua;
+}
+.card__container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px black solid;
+  padding-bottom: 0;
+  margin: 10px;
+  transition: transform 200ms ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 200ms ease;
+}
+.card__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: max-content;
+  width: 100%;
+}
+.card__log {
+  font-size: 100px;
+  color: rgb(88, 222, 222);
+}
+.card__title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.card__list {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  color: rgb(7, 12, 20);
+  width: 100%;
+  padding: 0;
+  background-color: rgba(114, 109, 109, 0.833);
+}
+.card__info {
+  padding: 25px;
+}
+.card__item {
+  padding: 5px;
+}
+.card__footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.706);
+  padding: 15px;
+}
+.card__trash {
+  font-size: 30px;
+  color: rgba(134, 24, 24, 0.938);
+}
+.card__but {
+  background-color: rgba(34, 241, 241, 0.132);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.card__edit {
+  font-size: 30px;
+  color: rgb(3, 72, 3);
+}
