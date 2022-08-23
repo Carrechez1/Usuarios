@@ -15,7 +15,6 @@ const Card = ({ user, getAllUsers, setUpdateUser, handleOpenForm }) => {
   const handleUpdateClick = () => {
     handleOpenForm();
     setUpdateUser(user);
-    reset;
   };
 
   return (
